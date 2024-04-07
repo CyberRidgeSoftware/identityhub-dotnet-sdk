@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Version>1.0.0</Version>
+		<TargetFrameworks>net7.0</TargetFrameworks>
+		<PlatformTarget>anycpu</PlatformTarget>
+		<GenerateDocumentationFile>false</GenerateDocumentationFile>
+		<OutputType>Library</OutputType>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>../../assets/cyberridge.snk</AssemblyOriginatorKeyFile>
+		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb;.xml</AllowedOutputExtensionsInPackageBuildOutputFolder>
+	</PropertyGroup>
+	<PropertyGroup>
+		<RootNamespace>CyberRidgeSoftware.IdentityHub.Sdk.AspNetCore</RootNamespace>
+		<AssemblyName>CyberRidgeSoftware.IdentityHub.Sdk.AspNetCore</AssemblyName>
+		<ApplicationIcon>logo.ico</ApplicationIcon>
+		<Company>CyberRidge Software (P) Ltd</Company>
+		<Authors>CyberRidge Software Team</Authors>
+		<Copyright>Copyright © CyberRidge Software (P) Ltd. All rights reserved.</Copyright>
+		<RepositoryType>git</RepositoryType>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageId>IdentityHubSdkAspNetCore</PackageId>
+		<Product>IdentityHubSdkAspNetCore</Product>
+		<Description>A IdentityHub SDK with extensions for ASP.NET Core applications.</Description>
+		<PackageTags>CyberRidge;CyberRidge-Software;Identity;Identity-Management;IdentityHub;AspNetCore</PackageTags>
+		<Nullable>disable</Nullable>
+		<PackageIcon>logo.png</PackageIcon>		
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<PackageOutputPath>../../nupkg</PackageOutputPath>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\assets\logo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>	
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.9" />
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="7.0.9" />
+	</ItemGroup>
+</Project>
