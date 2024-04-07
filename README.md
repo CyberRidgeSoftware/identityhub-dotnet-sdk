@@ -9,11 +9,13 @@ IdentityHub SDK for .NET 1.0 is the first release and contains wrappers for seve
 * ```IDHTenantsApi``` class is a wrapper for /tenants APIs.
 ## Packages
 IdentityHub SDK has the following NuGet packages:
-* [IdentityHubSdk](https://www.nuget.org/packages/IdentityHubSdk)
+* [IdentityHubSdkAspNetCore](https://www.nuget.org/packages/IdentityHubSdkAspNetCore)
+* [IdentityHubSdkWebAPI](https://www.nuget.org/packages/IdentityHubSdkWebAPI)
 ## Installation
 Use ```dotnet add package``` command to install IdentityHub SDK for .NET packages:
 ```
-dotnet add package IdentityHubSdk
+dotnet add package IdentityHubSdkAspNetCore
+dotnet add package IdentityHubSdkWebAPI
 ```
 ## Issues
 If you find a bug in the library or you have an idea about a new feature, please try to search in the existing list of [issues](https://github.com/cyberridgesoftware/identityhub-dotnet-sdk/issues). If the bug or idea is not listed and addressed there, please [open a new issue](https://github.com/cyberridgesoftware/identityhub-dotnet-sdk/issues/new).
