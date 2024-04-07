@@ -1,3 +1,4 @@
+![IdentityHub Logo](https://raw.githubusercontent.com/CyberRidgeSoftware/identityhub-dotnet-sdk/main/assets/logo_text.png)
 # IdentityHub SDK for .NET
 **IdentityHub SDK for .NET** is a .NET SDK for CyberRidge Software's IdentityHub. The SDK is free and open source. It contains wrappers that facilitate developers to make IdentityHub API calls. The usage of the framework is governed by the terms and conditions of its [License](https://github.com/cyberridgesoftware/identityhub-dotnet-sdk/blob/master/LICENSE).
 ## 1.0.0 Changes
