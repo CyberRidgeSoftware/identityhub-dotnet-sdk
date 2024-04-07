@@ -1,6 +1,6 @@
 # IdentityHub SDK for .NET
 **IdentityHub SDK for .NET** is a .NET SDK for CyberRidge Software's IdentityHub. The SDK is free and open source. It contains wrappers that facilitate developers to make IdentityHub API calls. The usage of the framework is governed by the terms and conditions of its [License](https://github.com/cyberridgesoftware/identityhub-dotnet-sdk/blob/master/LICENSE).
-## 1.0.1 Changes
+## 1.0.0 Changes
 IdentityHub SDK for .NET 1.0 is the first release and contains wrappers for several IdentityHub APIs. The following are the highlights:
 * ```IDHServiceCollectionExtensions``` class has an extension method ```AddIDHOpenIdAuthentication()``` to configure IdentityHub authentication in ASP.NET Core.
 * ```IDHClaimsPrincipalExtensions``` class has an exntension method ```GetIDHUser()``` that returns an instance of ```IDHClaimsUser``` based on the available claims.
